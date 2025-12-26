@@ -89,7 +89,7 @@ class TravelTasks:
         )
 
     def __important(self, cities):
-        return f"""To do this task, you understand the following instruction:
+        return f"""To do this task, you should understand the following instruction:
         1. If you want to find an information about weather you can searching the internet using the word that start with \"Accuweather\" and appending it with the city name and month for which you want to know weather information.
         2. If you cannot ask for information from another agent, You can use the popular websites such as \"Wanderlog\" or \"TripAdvisor\" to find many information about that city in the month you visited. For Example \"Wanderlog - {cities} in August\".
         3. Output only the full detail, without any additional comments.
